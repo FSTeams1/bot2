@@ -2344,7 +2344,7 @@ def lineBot(op):
                     line.sendMessage(msg.to,"💔:::⭐ ๘ ⭐:::💔")
                     line.sendMessage(msg.to,"💖:::⭐ ๙ ⭐:::💖")
                     line.sendMessage(msg.to,"💚:::⭐ 0 ⭐:::💚")
-                    line.sendMessage(msg.to,"「✮ 【 вот ☪ʟѕʟαміc 】 ✮」")                    
+                    line.sendMessage(msg.to,"「✮ 【 вот ғᴀʜ 】 ✮」")                    
                                     
                 elif msg.text in ["นับสเปน"]:
                     line.sendMessage(msg.to,"❂➣-รอสักครู่...........")
