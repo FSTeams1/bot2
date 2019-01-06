@@ -741,7 +741,7 @@ def helpsiri():
 ┃┝🖤┝➣ /ล็อครูป
 ┃┝🖤┝➣ /ล็อคเชิญ
 ┃╰━━━━━━━━━━━━━━━
-╰━━━{ 【❌ஆণเฟีєՃุ๑இำ❌】 }"""
+╰━━━{ 【🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭】 }"""
     return helpSiri
     
 #==============================================================================#
@@ -1055,7 +1055,7 @@ def lineBot(op):
                     line.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)                   
                 elif text.lower() == 'speed':
                     start = time.time()
-                    line.sendMessage(to, "『❌ஆণเฟีєՃุ๑இำ❌』")
+                    line.sendMessage(to, "『🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭』")
                     elapsed_time = time.time() - start
                     line.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
                 elif text.lower() == 'sp':
@@ -1162,14 +1162,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╭━━{【❌ஆণเฟีєՃุ๑இำ❌】}"
+                        ret_ = "╭━━{【🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭】}"
                         ret_ += "\n┣◉➣ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n┣◉➣ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n┣◉➣ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n┣◉➣ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n┣◉➣ สถานะ ═ {}".format(contact.statusMessage)
                         ret_ += "\n┣◉➣ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╰━━【❌ஆণเฟีєՃุ๑இำ❌】"
+                        ret_ += "\n╰━━【🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭】"
                         line.sendMessage(to, str(ret_))
                         line.sendContact(to, lineMID)
                     except Exception as e:
@@ -1179,7 +1179,7 @@ def lineBot(op):
                     try:
                         tz = pytz.timezone("Asia/Jakarta")
                         timeNow = datetime.now(tz=tz)
-                        ret_ = "╭━━{【❌ஆণเฟีєՃุ๑இำ❌】}\n┣━━━━━━━━━━━━━━━━━\n┃       [ ◉STATUS START◉ ]\n┣━━━━━━━━━━━━━━━━━"
+                        ret_ = "╭━━{【🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭】}\n┣━━━━━━━━━━━━━━━━━\n┃       [ ◉STATUS START◉ ]\n┣━━━━━━━━━━━━━━━━━"
                         if settings["autoAdd"] == True: ret_ += "\n┣◉➣✔ ออโต้แอด [ on ]"
                         else: ret_ += "\n┣◉➣✖ ออโต้แอด [ off ] "
                         if settings["autoBlock"] == True: ret_ += "\n┣◉➣✔ ออโต้บล็อค [ on ]"
@@ -1311,10 +1311,10 @@ def lineBot(op):
                     line.sendMessage(to, "เชคยกเลิกข้อความ (ปิด) ใช้งาน") 
                 elif msg.text in ["เปิดเตะแทค"]:
                     settings["kickMention"] = False
-                    line.sendMessage(msg.to,"เปิดระบบเตะคนแท็ก\n\n『✮ 【 вот ☪ʟѕʟαміc 】 ✮』")                    
+                    line.sendMessage(msg.to,"เปิดระบบเตะคนแท็ก\n\n『✮ 【 вот ғᴀʜ 】 ✮』")                    
                 elif msg.text in ["ปิดแทคเตะ"]:
                     settings['kickMention'] = True
-                    line.sendMessage(msg.to,"ปิดระบบเตะคนแท็ก\n\n✮ 【 вот ☪ʟѕʟαміc 】 ✮")                    
+                    line.sendMessage(msg.to,"ปิดระบบเตะคนแท็ก\n\n✮ 【 вот ғᴀʜ 】 ✮")                    
 #==============================================================================#
                 elif text.lower() == 'ไอดี':
                     line.sendMessage(msg.to,"[MID]\n" +  lineMID)
